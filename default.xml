@@ -26,7 +26,9 @@
     <project path="private/msm-google/techpack/display" name="display-drivers" groups="partner" remote="org-kernel" />
     <project path="private/msm-google/techpack/video" name="video-driver" groups="partner" remote="org-kernel" />
     <project path="private/msm-google-modules/data-kernel" name="kernel/msm-modules/data-kernel" groups="partner" remote="aosp" />
-    <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" revision="b2a189331333e014bfef4c0425b3ef4b74accdd0" remote="aosp" />
+    <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" remote="aosp" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" remote="aosp"/>
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" remote="aosp"/>
     <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="4bb6424cb1615af408ae80871131f4da8c4ddadf" clone-depth="1" groups="partner" remote="aosp" />
     <project path="prebuilts-master/misc" name="platform/prebuilts/misc" revision="pie-release" clone-depth="1" groups="partner" remote="aosp" />
     <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="34bc8bfb493401f7aadbd3b434f9fbfa521e9301" groups="partner" remote="aosp" />
